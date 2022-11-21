@@ -1,4 +1,4 @@
-import { RocketChatLogo } from '@rocket.chat/logo';
+// import { RocketChatLogo } from '@rocket.chat/logo';
 import { withTranslation } from 'react-i18next';
 
 import { PopoverMenu } from '../Menu';
