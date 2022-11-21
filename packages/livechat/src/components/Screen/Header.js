@@ -97,7 +97,7 @@ class ScreenHeader extends Component {
 							</Header.Action>
 						</Tooltip.Trigger>
 					)}
-					{!expanded && !windowed && (
+					{expanded && !windowed && (
 						<Tooltip.Trigger content={t('expand_chat')} placement='bottom-left'>
 							<Header.Action aria-label={t('expand_chat')} onClick={onOpenWindow}>
 								<OpenWindowIcon width={20} height={20} />
