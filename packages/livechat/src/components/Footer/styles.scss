@@ -23,18 +23,20 @@
 	}
 
 	&__options {
+		min-width: 100px;
 		padding: 0;
 
 		cursor: pointer;
 		user-select: none;
 		transition: trasform $default-time-animation;
-		text-align: left;
+		text-align: right;
 		letter-spacing: 0.2px;
 
 		color: $color-text-grey;
 		border: none;
 		background: none;
 
+		font-family: "IRANYekan";
 		font-size: 0.625rem;
 		font-weight: bold;
 		line-height: 1;
