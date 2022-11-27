@@ -28,7 +28,7 @@
 		cursor: pointer;
 		user-select: none;
 		transition: trasform $default-time-animation;
-		text-align: left;
+		text-align: right;
 		letter-spacing: 0.2px;
 
 		color: $color-text-grey;
@@ -38,6 +38,8 @@
 		font-size: 0.625rem;
 		font-weight: bold;
 		line-height: 1;
+		min-width: 100px;
+		font-family: "IRANYekan";
 
 		&:hover,
 		&:focus {
